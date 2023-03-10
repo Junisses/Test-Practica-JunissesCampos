@@ -2,6 +2,8 @@
 
 ### Nombre : Junisses Campos ☺
 
+Hay dos maneras de ejecución, use la que más estime conveniente, dejo ambas sus pasos a seguir
+
 ## EJECUCIÓN
 
 ➜ Abrir la carpeta en un IDE (recomiendo visual studio code)

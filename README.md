@@ -48,7 +48,7 @@ Realicé un entorno virtual "carpeta venv" para poder instalar algunos elementos
   ➜ Migrar los datos con python manage.py migrate, para que se llene la base de datos 
     *(Algunas veces no me reconoce el HOST, por lo que voy a settings.py y en la línea 85 le cambio lo que esta entre las comillas. Para saber por cual cambiarle            utilizo ubuntu que esta conectado a docker directamente, y con el comando "dig mysql" veo cual es la IP, normalmente aparece en la línea que dice "SERVER", damos      a guardar y volvemos a ejecutar este código, cuando nos aparece que la migración fue exitosa u ok, continuamos)*
 
-  ➜ Creamos un super usuario python manage.py createsuperuser
+  ➜ Creamos un super usuario con python manage.py createsuperuser (ingresamos nuestros datos)
 
   ➜ Correr docker-compose up -d
   

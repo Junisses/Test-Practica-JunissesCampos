@@ -2,7 +2,7 @@
 
 ### Nombre : Junisses Campos ☺
 
-> **NOTA:** Hay dos maneras de ejecución, use la que más estime conveniente, dejo para ambas sus pasos a seguir
+> **NOTA:** Hay dos maneras de ejecución, use la que más estime conveniente, dejo para ambas sus pasos a seguir.
 
 ## EJECUCIÓN
 

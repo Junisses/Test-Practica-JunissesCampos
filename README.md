@@ -11,10 +11,10 @@ Este sistema se puede ejecutar de dos maneras, una es dentro del entorno virtual
   
   ➜ Ingresar al entorno virtual con ./venv/Scripts/activate
   
-  ➜ Correr docker-compose up -d
-  
   ➜ Migrar los datos con python manage.py migrate, para que se llene la base de datos (Algunas veces no me reconoce el HOST, por lo que voy a settings.py y se lo cambio por la ip que da docker al escribir dig mysql)***************
   
+  ➜ Correr docker-compose up -d
+
   ➜ Creamos un super usuario python manage.py createsuperuser
   
   ➜ Luego de hacer esto, podemos ingresar a http://localhost:8000/admin/ e ingresar con las credenciales creadas
@@ -41,6 +41,8 @@ Y seleccionamos el Send Request para ver el resultado de las apis realizadas☻
 ➜ Ingresar comando python manage.py migrate (Algunas veces no me reconoce el HOST, por lo que voy a settings.py y se lo cambio por la ip que da docker al escribir dig mysql)*********************
 
 ➜ Crear super usuario con python manage.py createsuperuser
+
+➜ Correr docker-compose up -d
 
 ➜ Luego de hacer esto, podemos ingresar a http://localhost:8000/admin/ e ingresar con las credenciales creadas
 

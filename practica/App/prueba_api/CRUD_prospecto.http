@@ -1,0 +1,33 @@
+### listado de todos los prospectos
+GET http://localhost:8000/app/prospectos/
+
+### Buscar un prospecto cambiando el ultimo número
+GET http://localhost:8000/app/prospectos/2 
+
+### Crear nuevo prospecto
+POST http://localhost:8000/app/prospectos/
+Content-Type: application/json
+
+{
+  "nombre": "Sofia",
+  "mail": "sofy.03@gmail.com",
+  "telefono": "999999555",
+  "sexo": "femenino",
+  "cliente_id_id": 2,
+  "estado_id_id": 1,
+  "etapa_id_id": 1
+}
+
+### Actualizar datos de un cliente - cambiar último número en la url
+PUT http://localhost:8000/app/prospectos/9
+Content-Type: application/json
+
+{
+  "nombre": "Pia",
+  "mail": "pia.03@gmail.com",
+  "telefono": "999999555",
+  "sexo": "femenino",
+  "cliente_id_id": 7,
+  "estado_id_id": 1,
+  "etapa_id_id": 1
+}

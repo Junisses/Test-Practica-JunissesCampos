@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  app:
+    image: junisses/app-django
+    ports:
+      - "8000:8000"
+    environment:
+      MYSQL_HOST: mysql
+      MYSQL_USER: root
+      MYSQL_PASSWORD: jun
+      MYSQL_DB: test
+
+  mysql:
+    image: junisses/bd-mysql:v2
+    environment:
+      MYSQL_ROOT_PASSWORD: jun
+      MYSQL_DATABSE: test 
+    volumes:
+    - ./test-mysql-data:/var/lib/mysql
+    ports:
+    - "3306:3306"

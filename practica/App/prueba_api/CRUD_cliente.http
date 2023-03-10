@@ -1,0 +1,31 @@
+### listado de todos los clientes
+GET http://localhost:8000/app/clientes/
+
+### Buscar un cliente cambiando el ultimo número
+GET http://localhost:8000/app/clientes/2 
+
+### Crear nuevo cliente
+POST http://localhost:8000/app/clientes/
+Content-Type: application/json
+
+{
+  "nombre_empresa": "Sofia",
+  "rut": "205077923",
+  "direccion": "calle 79",
+  "telefono": "923377789",
+  "sexo": "femenino",
+  "mail": "sofy.03@gmail.com"
+}
+
+### Actualizar datos de un cliente - cambiar último número en la url
+PUT http://localhost:8000/app/clientes/2 
+Content-Type: application/json
+
+{
+  "nombre_empresa": "Ana",
+  "rut": "110007923",
+  "direccion": "calle 79",
+  "telefono": "998577789",
+  "sexo": "femenino",
+  "mail": "Ana.maria@gmail.com"
+}

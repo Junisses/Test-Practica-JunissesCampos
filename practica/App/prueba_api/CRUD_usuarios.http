@@ -1,0 +1,25 @@
+### listado de todos los usuarios
+GET http://localhost:8000/app/usuarios/
+
+### Buscar un usuario cambiando el ultimo número
+GET http://localhost:8000/app/usuarios/2
+
+### Crear nuevo usuario
+POST http://localhost:8000/app/usuarios/
+Content-Type: application/json
+
+{
+  "username": "Jorge",
+  "password": "123456",
+  "cliente_id": 3
+}
+
+### Actualizar datos de un usuario - cambiar último número en la url
+PUT http://localhost:8000/app/usuarios/3
+Content-Type: application/json
+
+{
+  "username": "Luis",
+  "password": "666321",
+  "cliente_id": 5
+}

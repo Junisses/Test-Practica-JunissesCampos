@@ -1,0 +1,21 @@
+### listado de las estados
+GET http://localhost:8000/app/estados/
+
+### Buscar una etapa cambiando el ultimo número
+GET http://localhost:8000/app/estados/1
+
+### Crear nueva etapa
+POST http://localhost:8000/app/estados/
+Content-Type: application/json
+
+{
+  "estado": "Abierto"
+}
+
+### Actualizar nombre de una etapa - cambiar último número en la url
+PUT http://localhost:8000/app/estados/2
+Content-Type: application/json
+
+{
+  "etapa": "Conseguido"
+}

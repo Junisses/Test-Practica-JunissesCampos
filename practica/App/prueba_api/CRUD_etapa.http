@@ -1,0 +1,21 @@
+### listado de las etapas
+GET http://localhost:8000/app/etapas/
+
+### Buscar una etapa cambiando el ultimo número
+GET http://localhost:8000/app/etapas/1
+
+### Crear nueva etapa
+POST http://localhost:8000/app/etapas/
+Content-Type: application/json
+
+{
+  "etapa": "En conversacion"
+}
+
+### Actualizar nombre de una etapa - cambiar último número en la url
+PUT http://localhost:8000/app/etapas/2
+Content-Type: application/json
+
+{
+  "etapa": "Conseguido"
+}

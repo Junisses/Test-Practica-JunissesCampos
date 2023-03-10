@@ -1,4 +1,4 @@
-# Bienvenidos a mi test ténico de práctica
+# Bienvenidos a mi test técnico de práctica
 
 ### Nombre : Junisses Campos ☺
 

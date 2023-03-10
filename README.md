@@ -1,6 +1,6 @@
-Bienvenidos a mi test ténico de práctica
+# Bienvenidos a mi test ténico de práctica
 
-Junisses Campos ☺
+### Nombre : Junisses Campos ☺
 
 ## EJECUCIÓN
 
@@ -32,7 +32,7 @@ En este punto ya esta funcionando la aplicación, por lo que para probar las api
 ![image](https://user-images.githubusercontent.com/55362940/224223810-bcfbf4ad-60dc-43e2-bcfe-b76209550db8.png)
 
 
-Y seleccionamos el Send Request para ver el resultado de las apis realizadas☻
+Y seleccionamos el Send Request para ver el resultado de las apis realizadas ☺
 
 
 ## EJECUCIÓN MEDIANTE ENTORNO VIRTUAL

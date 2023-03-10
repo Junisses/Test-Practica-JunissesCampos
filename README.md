@@ -21,6 +21,7 @@ Este sistema se puede ejecutar de dos maneras, una es dentro del entorno virtual
   
   
 En este punto ya esta funcionando la aplicacion, por lo que para probar las apis creadas, se puede hacer desde POSTman o desde el mismo visual studio code, instalando una extesion llamada "REST client", con este podemos ir a una carpeta dentro del proyecto llamada "prueba_api", abrimos los archivos http...
+
 ![image](https://user-images.githubusercontent.com/55362940/224223810-bcfbf4ad-60dc-43e2-bcfe-b76209550db8.png)
 
 

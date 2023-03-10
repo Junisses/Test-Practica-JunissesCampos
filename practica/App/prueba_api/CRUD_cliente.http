@@ -9,23 +9,23 @@ POST http://localhost:8000/app/clientes/
 Content-Type: application/json
 
 {
-  "nombre_empresa": "Sofia",
-  "rut": "205077923",
-  "direccion": "calle 79",
-  "telefono": "923377789",
+  "nombre_empresa": "Luis",
+  "rut": "205077988",
+  "direccion": "calle 229",
+  "telefono": "922277789",
   "sexo": "femenino",
-  "mail": "sofy.03@gmail.com"
+  "mail": "luis.14@gmail.com"
 }
 
 ### Actualizar datos de un cliente - cambiar último número en la url
-PUT http://localhost:8000/app/clientes/2 
+PUT http://localhost:8000/app/clientes/1
 Content-Type: application/json
 
 {
-  "nombre_empresa": "Ana",
-  "rut": "110007923",
-  "direccion": "calle 79",
-  "telefono": "998577789",
+  "nombre_empresa": "Sofia",
+  "rut": "113337923",
+  "direccion": "calle 7889",
+  "telefono": "123456789",
   "sexo": "femenino",
-  "mail": "Ana.maria@gmail.com"
+  "mail": "Ana.sofia@gmail.com"
 }

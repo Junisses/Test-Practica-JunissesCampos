@@ -44,9 +44,6 @@ class CustomerView(View):
         elif len((jd['nombre_empresa'])) >= 50 :
             datos = {'message': "El nombre de empresa supera los 50 caracteres!"}
 
-        elif len((jd['rut'])) > 9 or len((jd['rut'])) > 8:
-            datos = {'message': "El rut debe tener 8 o 9 caracteres!"}
-
         elif len((jd['direccion'])) >= 100 :
             datos = {'message': "Abrevia la dirección, esta supera los 100 caracteres"}
 
@@ -77,9 +74,6 @@ class CustomerView(View):
                 datos = {'message': "No deje campos en blanco"}
             elif len(customer.nombre_empresa) >= 50 :
                 datos = {'message': "El nombre de empresa supera los 50 caracteres!"}
-
-            elif len(customer.rut) > 9 or len((jd['rut'])) > 8:
-                datos = {'message': "El rut debe tener 8 o 9 caracteres!"}
 
             elif len(customer.direccion) >= 100 :
                 datos = {'message': "Abrevia la dirección, esta supera los 100 caracteres"}

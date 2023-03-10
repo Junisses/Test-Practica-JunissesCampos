@@ -15,7 +15,7 @@ services:
     image: junisses/bd-mysql:v2
     environment:
       MYSQL_ROOT_PASSWORD: jun
-      MYSQL_DATABSE: test 
+      MYSQL_DATABASE: test 
     volumes:
     - ./test-mysql-data:/var/lib/mysql
     ports:

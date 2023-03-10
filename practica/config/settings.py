@@ -82,7 +82,7 @@ DATABASES = {
         'PASSWORD': 'jun',
         # Ojo con el host, abrir ubuntu y 
         # hacer un "dig mysql" para saber que host poner
-        'HOST': 'mysql',  #172.17.160.1
+        'HOST': '172.31.32.1',  #172.17.160.1
         'PORT': '3306', 
         'OPTIONS': {  
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"  
